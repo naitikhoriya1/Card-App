@@ -7,13 +7,16 @@ export default function FlatCards() {
       <Text style={styles.headingtext}>FlatCards</Text>
       <View style={styles.container}>
         <View style={styles.card}>
-          <Text style={styles.cardtext}>Let's</Text>
+          <Text style={styles.cardtext}>1's</Text>
         </View>
         <View style={styles.card}>
-          <Text style={styles.cardtext}>Get</Text>
+          <Text style={styles.cardtext}>2's</Text>
         </View>
         <View style={styles.card}>
-          <Text style={styles.cardtext}>Starts</Text>
+          <Text style={styles.cardtext}>3's</Text>
+        </View>
+        <View style={styles.card}>
+          <Text style={styles.cardtext}>4's</Text>
         </View>
       </View>
     </View>
@@ -22,7 +25,7 @@ export default function FlatCards() {
 
 const styles = StyleSheet.create({
   headingtext: {
-    fontSize: 20,
+    fontSize: 22,
     fontWeight: 'bold',
     color: 'green',
     textAlign: 'center',
